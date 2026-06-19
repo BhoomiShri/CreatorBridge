@@ -1,32 +1,47 @@
 export const creators = [
   {
-    name: "Aisha Sharma",
-    score: 95,
-    reasons: [
-      "Audience aligns with beauty demographics",
-      "High engagement rate on video reels",
-      "Authentic tone fits brand guidelines"
-    ],
-    concern: "High sponsorship rate, might affect message exclusivity."
+    id: 1,
+    name: "Priya Sharma",
+    niche: "Fashion",
+    followers: "125K",
+    engagement: "5.8%",
+    matchScore: 91
   },
   {
-    name: "Rohan Das",
-    score: 88,
-    reasons: [
-      "Strong tech/lifestyle audience segment",
-      "Experienced with tech product walkthroughs"
-    ],
-    concern: "Slightly lower engagement rate on weekend posts."
+    id: 2,
+    name: "Arjun Kapoor",
+    niche: "Tech",
+    followers: "95K",
+    engagement: "4.7%",
+    matchScore: 84
+  },
+  {
+    id: 3,
+    name: "Neha Verma",
+    niche: "Beauty",
+    followers: "210K",
+    engagement: "6.2%",
+    matchScore: 88
   }
 ];
 
 export const campaigns = [
   {
-    title: "Summer Hydration Boost",
-    objective: "Increase brand awareness and promote our new clean skincare hydration gel."
+    id: 1,
+    title: "Nykaa Summer Collection",
+    description: "Promote summer beauty products",
+    budget: "₹50,000"
   },
   {
-    title: "Eco-friendly Tech Gadgets",
-    objective: "Showcase the sustainable materials and recycling programs for our new keyboard line."
+    id: 2,
+    title: "Boat Audio Launch",
+    description: "Promote new wireless earbuds",
+    budget: "₹75,000"
+  },
+  {
+    id: 3,
+    title: "Myntra Festive Sale",
+    description: "Promote festive fashion collection",
+    budget: "₹1,00,000"
   }
 ];
